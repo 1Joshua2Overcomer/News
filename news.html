@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="Stylesheet" href="news.css">
+</head>
+<body>
+    <header id="header">
+        <div id="nav-Img">
+            <img src="news-homepage-main\assets\images\logo.svg" alt="Logo Image">
+        </div>
+
+        <div id="Menu">
+            <div class="Menu_line1"> <img src="news-homepage-main\assets\images\icon-menu.svg"> </div>
+        </div>
+        
+        <nav class="nav_bar">
+            <div id="nav_con">
+                <div class="Menu_line2"> <img src="news-homepage-main\assets\images\icon-menu-close.svg"> </div>
+                
+                <ul>
+                    <li> <a href="#"> Home </a></li>
+                    <li> <a href="#"> New </a></li>
+                    <li> <a href="#"> Popular </a></li>
+                    <li> <a href="#"> Trending </a></li>
+                    <li> <a href="#"> Categories </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="Container">
+        <div id="Sub_container_1">
+            <div id="Main_Con1">
+                <div id="Sub_Main_Con1">
+                    <img src="news-homepage-main\assets\images\image-web-3-mobile.jpg" class="image1">
+                    <img src="news-homepage-main\assets\images\image-web-3-desktop.jpg" class="image2">
+                </div>
+                <div id="Sub_Main_Con2">
+                    <div id="Sub_sub_Main_Con1">
+                        <h1>
+                            The Bright Future of Web 3.0?
+                        </h1>
+                    </div>
+                    <div id="Sub_sub_Main_Con2">
+                        <P>
+                            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                            But is it really fulfilling its promise?
+                        </P>
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div id="Main_Con2">
+                <h2>
+                    New
+                </h2>
+                <div>
+                    <h4>
+                        Hydrogen VS Electric Cars 
+                    </h4>
+                    <p>
+                        Will hydrogen-fueled cars ever catch up to EVs?
+                    </p>
+                </div>
+                <div id="middle_div">
+                    <h4>
+                        The Downsides of AI Artistry 
+                    </h4>
+                    <p>
+                        What are the possible adverse effects of on-demand AI image generation?
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Is VC Funding Drying Up?
+                    </h4>
+                    <p>
+                        Private funding by VC firms is down 50% YOY. We take a look at what that means.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="Sub_container_2">
+            <div id="Sub_container_2_One">
+                <div>
+                    <img src="news-homepage-main\assets\images\image-retro-pcs.jpg" class="Sub_container_2_Image">
+                </div>
+                <div class="Sub_container_2_writeup">
+                    <h2>
+                        01
+                    </h2>
+                    <h3>
+                        Reviving Retro PCs
+                    </h3>
+                    <p>
+                        What happens when old PCs are given modern upgrades?
+                    </p>
+                </div>
+            </div>
+            <div id="Sub_container_2_Two">
+                <div>
+                    <img src="news-homepage-main\assets\images\image-top-laptops.jpg" class="Sub_container_2_Image">
+                </div>
+                <div class="Sub_container_2_writeup">
+                    <h2>
+                        02
+                    </h2>
+                    <h3>
+                        Top 10 Laptops of 2022
+                    </h3>
+                    <p>
+                        Our best picks for various needs and budgets.
+                    </p>
+                </div>
+            </div>
+            <div id="Sub_container_2_Three">
+                <div>
+                    <img src="news-homepage-main\assets\images\image-gaming-growth.jpg" class="Sub_container_2_Image">
+                </div>
+                <div class="Sub_container_2_writeup">
+                    <h2>
+                        03
+                    </h2>
+                    <h3>
+                        The Growth of Gaming
+
+                    </h3>
+                    <p>
+                        How the pandemic has sparked fresh opportunities.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        Menu_line1 = document.querySelector(".Menu_line1");
+        Menu_line1.onclick = function(){
+            navBar = document.querySelector(".nav_bar");
+            navBar.classList.toggle("active");
+        }
+
+        Menu_line2 = document.querySelector(".Menu_line2");
+        Menu_line2.onclick = function(){
+            Close_Menu = document.querySelector(".nav_bar");
+            Close_Menu.classList.toggle("active")
+        }
+    </script>
+</body>
+
+</html>
